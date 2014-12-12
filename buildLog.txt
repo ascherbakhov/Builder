@@ -1,0 +1,67 @@
+Microsoft (R) Build Engine версии 4.0.30319.18408
+[Microsoft .NET Framework версии 4.0.30319.18444]
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Построение проектов в этом решении по одному. Чтобы включить параллельную сборку, добавьте параметр "/m".
+Сборка начата 12.12.2014 10:45:01.
+Проект "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\Solution.sln" в узле 1 (целевые объекты по умолчанию).
+ValidateSolutionConfiguration:
+  Создание конфигурации решения "Release|Any CPU".
+Проект "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\Solution.sln" (1) выполняет построение "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\ProjectName.fsproj" (2) в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "bin\Release\".
+  Создание каталога "obj\Release\".
+GenerateTargetFrameworkMonikerAttribute:
+Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsc.exe -o:obj\Release\ProjectName.exe --debug:pdbonly --noframework --define:TRACE --doc:bin\Release\ProjectName.XML --optimize+ --platform:anycpu32bitpreferred -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Numerics.dll" --target:exe --warn:3 --warnaserror:76 --fullpaths --flaterrors --subsystemversion:6.00 --highentropyva+ "C:\Users\home\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.fs" Prog.fs 
+  
+C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\Prog.fs(1,81): warning FS0988: Основной модуль программы пуст: при запуске программы не будет выполнено никаких действий [C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\ProjectName.fsproj]
+_CopyFilesMarkedCopyLocal:
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.dll" в "bin\Release\FSharp.Core.dll".
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.xml" в "bin\Release\FSharp.Core.xml".
+  Создание каталога "bin\Release\ru".
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\ru\FSharp.Core.resources.dll" в "bin\Release\ru\FSharp.Core.resources.dll".
+_CopyAppConfigFile:
+  Копирование файла из "App.config" в "bin\Release\ProjectName.exe.config".
+CopyFilesToOutputDirectory:
+  Копирование файла из "obj\Release\ProjectName.exe" в "bin\Release\ProjectName.exe".
+  ProjectName -> C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\bin\Release\ProjectName.exe
+  Копирование файла из "obj\Release\ProjectName.pdb" в "bin\Release\ProjectName.pdb".
+Построение проекта "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\ProjectName.fsproj" завершено (целевые объекты по умолчанию).
+Проект "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\Solution.sln" (1) выполняет построение "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName1\ProjectName1.fsproj" (3) в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "bin\Release\".
+  Создание каталога "obj\Release\".
+GenerateTargetFrameworkMonikerAttribute:
+Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\fsc.exe -o:obj\Release\ProjectName1.exe --debug:pdbonly --noframework --define:TRACE --doc:bin\Release\ProjectName1.XML --optimize+ --platform:anycpu32bitpreferred -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" -r:C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\bin\Release\ProjectName.exe -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Numerics.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.DataVisualization.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" --target:exe --warn:3 --warnaserror:76 --fullpaths --flaterrors --subsystemversion:6.00 --highentropyva+ "C:\Users\home\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.fs" Program.fs 
+_CopyFilesMarkedCopyLocal:
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.dll" в "bin\Release\FSharp.Core.dll".
+  Копирование файла из "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\bin\Release\ProjectName.exe" в "bin\Release\ProjectName.exe".
+  Копирование файла из "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\bin\Release\ProjectName.pdb" в "bin\Release\ProjectName.pdb".
+  Копирование файла из "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\bin\Release\ProjectName.xml" в "bin\Release\ProjectName.xml".
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\FSharp.Core.xml" в "bin\Release\FSharp.Core.xml".
+  Создание каталога "bin\Release\ru".
+  Копирование файла из "C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\ru\FSharp.Core.resources.dll" в "bin\Release\ru\FSharp.Core.resources.dll".
+_CopyAppConfigFile:
+  Копирование файла из "App.config" в "bin\Release\ProjectName1.exe.config".
+CopyFilesToOutputDirectory:
+  Копирование файла из "obj\Release\ProjectName1.exe" в "bin\Release\ProjectName1.exe".
+  ProjectName1 -> C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName1\bin\Release\ProjectName1.exe
+  Копирование файла из "obj\Release\ProjectName1.pdb" в "bin\Release\ProjectName1.pdb".
+Построение проекта "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName1\ProjectName1.fsproj" завершено (целевые объекты по умолчанию).
+Построение проекта "C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\Solution.sln" завершено (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+
+"C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\Solution.sln" (целевой объект по умолчанию) (1) ->
+"C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\ProjectName.fsproj" (целевой объект по умолчанию) (2) ->
+(Целевой объект CoreCompile) -> 
+  C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\Prog.fs(1,81): warning FS0988: Основной модуль программы пуст: при запуске программы не будет выполнено никаких действий [C:\Users\home\Desktop\Hwlc\build_folder\Hwlc\ProjectName\ProjectName\ProjectName.fsproj]
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Затраченное время: 00:00:06.08
