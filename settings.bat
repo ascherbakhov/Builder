@@ -5,7 +5,7 @@ set REPO_URL=https://github.com/ascherbakhov/GeoPointLine.git
 
 set DOTNET_VERSION=v4.0.30319
 set MSBUILD=%windir%\Microsoft.NET\Framework64\%DOTNET_VERSION%\MSBuild.exe
-set PROJECT_NAME=Solution.sln
+set PROJECT_NAME=GeoSol.sln
 
 set CONFIG=/p:Configuration=Release;VisualStudioVersion=12.0
 set BUILD_LOG=%BUILDER_FOLDER%\buildLog.txt
@@ -19,4 +19,4 @@ set CHECKOUT_ERROR=false
 set BUILD_ERROR=false
 set CHECK_ERROR=false
 
-set BIN=%BUILD_FOLDER%\Hwlc\ProjectName\ProjectName1\bin\Release
+set BIN=%BUILD_FOLDER%\GeometryGUI\bin\Release

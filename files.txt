@@ -1,2 +1,2 @@
-ProjectName1.exe
-ProjectName.exe
+GeometryFUN.exe
+GeometryGUI.exe
